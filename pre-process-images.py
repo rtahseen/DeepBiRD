@@ -14,9 +14,6 @@ import numpy as np
 inputDir = "path/to/image/directory/"
 outputDir = "path/to/output/directory/"
 
-inputDir = "/home/rizvi/Desktop/transfer/ICONIP-2.0/val/images/"
-outputDir = "/home/rizvi/Desktop/transfer/ICONIP-2.0/val/output/"
-
 def dilate(image_name):
     img = cv2.imread(inputDir+image_name,0)
     img = (255-img)
